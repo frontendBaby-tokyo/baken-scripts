@@ -8,8 +8,8 @@ function validateInput(input) {
   }
   
   const num = parseInt(trimmed, 10);
-  if (isNaN(num) || num < 1 || num > 12) {
-    return { error: 'レース番号は1から12の間で入力してください', value: null };
+  if (isNaN(num) || num < 1) {
+    return { error: 'レース番号は1以上の整数で入力してください', value: null };
   }
   
   return { error: null, value: num };
