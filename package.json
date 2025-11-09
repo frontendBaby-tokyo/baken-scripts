@@ -1,0 +1,15 @@
+{
+  "name": "sanrentan-cli",
+  "version": "1.0.0",
+  "description": "sanrentan cli - 3連単組み合わせCLIツール。",
+  "bin": {
+    "srt": "bin/srt.js"
+  },
+  "main": "src/shuffle.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/srt.js"
+  },
+  "author": "frontendBaby-tokyo",
+  "license": "MIT"
+}
